@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Djqz+GlhCL5ERKTIsJvAxF8M0f7iQ/Bm9vAWAGGZOkI+dpEzGxLWleHGjWghV54jGWD75J0fQVOzwbFKIHta2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pavan\\Downloads\\V11600338321534\\V1\\shophome\\shophome\\shophome\\shophome.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pavan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
+    "C:\\Users\\pavan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
