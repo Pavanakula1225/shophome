@@ -8,6 +8,9 @@ trigger:
 resources:
 - repo: self
 
+pool:
+ name: 'MyVM1'
+
 variables:
 
   # Container registry service connection established during pipeline creation
@@ -18,9 +21,6 @@ variables:
   tag: '$(Build.BuildId)'
   imagePullSecret: 'mykubeacr6365-auth'
 
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
-
 
 stages:
 - stage: Build
@@ -28,8 +28,7 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool:
-      vmImage: $(vmImageName)
+
     steps:
     - task: Docker@2
       displayName: Build and push an image to container registry
@@ -51,8 +50,7 @@ stages:
   jobs:
   - deployment: Deploy
     displayName: Deploy
-    pool:
-      vmImage: $(vmImageName)
+    
     environment: 'Pavanakula1225shophome-1677.default'
     strategy:
       runOnce:
