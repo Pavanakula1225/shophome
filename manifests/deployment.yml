@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: shophome 
-          image: mykubeacrreg.azurecr.io/shophome
+          image: mykubeacr.azurecr.io/shophome
           ports:
           - containerPort: 80
