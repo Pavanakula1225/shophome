@@ -15,7 +15,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '8eee4c32-2f5b-4abd-9aab-51af25b4644d'
   imageRepository: 'shophome'
-  containerRegistry: 'mykubeacrreg.azurecr.io'
+  containerRegistry: 'mykubeacr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'mykubeacrreg50c0-auth'
